@@ -36,7 +36,7 @@ const projects = [
       "데이터 시각화 전문 플랫폼으로, 복잡한 데이터를 직관적인 차트와 그래프로 변환합니다.",
     serviceUrl: "http://visuality.co.kr",
     githubUrl: null,
-    tech: ["Next.js"],
+    tech: ["Next.js", "TailwindCss"],
     category: "Data Visualization",
   },
   {
@@ -76,13 +76,13 @@ const projects = [
     category: "Trading Bot",
   },
   {
-    title: "Taobao Chrome Extension",
+    title: "ChromOps",
     description:
       "타오바오에서의 쇼핑 경험을 개선하고 유용한 기능을 제공하는 크롬 확장 프로그램입니다.",
-    serviceUrl: null,
-    githubUrl: "https://github.com/songchez/taobaoChromeExE",
-    tech: ["Chrome Extension", "JavaScript", "HTML", "CSS"],
-    category: "Browser Extension",
+    serviceUrl: "https://chrom-ops.vercel.app/",
+    githubUrl: "https://github.com/songchez/ChromOps/tree/main",
+    tech: ["Next.js", "Prisma", "TailwindCSS"],
+    category: "Shopping Mall",
   },
 ];
 
