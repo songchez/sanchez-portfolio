@@ -1,26 +1,32 @@
-"use client"
+"use client";
 
-import type React from "react"
+import type React from "react";
 
-import { motion } from "framer-motion"
-import { useState } from "react"
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function Contact() {
-  const [formState, setFormState] = useState({ name: "", email: "", message: "" })
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
+    e.preventDefault();
     // Handle form submission here
-    console.log(formState)
-  }
+    console.log(formState);
+  };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormState({ ...formState, [e.target.name]: e.target.value })
-  }
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setFormState({ ...formState, [e.target.name]: e.target.value });
+  };
 
   return (
     <section
-      className="min-h-screen flex items-center justify-center py-20 bg-gradient-to-b from-gray-900 to-black"
+      className="min-h-screen flex items-center justify-center py-20"
       id="contact"
     >
       <div className="container mx-auto px-6">
@@ -92,5 +98,5 @@ export default function Contact() {
         </motion.form>
       </div>
     </section>
-  )
+  );
 }

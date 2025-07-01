@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const projects = [
   {
@@ -185,22 +186,6 @@ export default function Projects() {
               </span>
             </div>
           ))}
-        </div>
-
-        {/* Contact Section */}
-        <div className="text-center mt-16">
-          <div className="bg-white/10 rounded-xl p-8 border border-white/20 max-w-2xl mx-auto">
-            <p className="text-lg text-white/80 mb-6">
-              더 많은 프로젝트와 협업 기회에 관심이 있으시다면 언제든지
-              연락주세요.
-            </p>
-            <a
-              href="mailto:tama4840@gmail.com"
-              className="inline-block px-8 py-3 bg-blue-500 hover:bg-blue-700 rounded-lg text-white font-semibold transition-colors"
-            >
-              Contact Me
-            </a>
-          </div>
         </div>
       </div>
     </section>
