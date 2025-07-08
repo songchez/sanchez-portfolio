@@ -3,7 +3,6 @@ import { Suspense } from "react";
 import Hero from "@/components/Hero";
 import Profile from "@/components/Profile";
 import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
 
 const Globe = dynamic(() => import("@/components/Globe"), { ssr: true });
 
@@ -17,7 +16,6 @@ export default function Home() {
       <div className="relative z-10 select-none">
         <Profile />
         <Projects />
-        <Contact />
       </div>
     </main>
   );

@@ -66,7 +66,7 @@ const Profile: React.FC = () => {
               </h3>
               <div className="space-y-4">
                 <div className="border-l-2 border-blue-300/50 pl-4">
-                  <p className="font-semibold text-white">헤르메스 솔루션</p>
+                  <p className="font-semibold text-white">Hermes Solution</p>
                   <p className="text-sm text-white/70">
                     연구원 / 풀스택 개발자
                   </p>
@@ -80,10 +80,10 @@ const Profile: React.FC = () => {
                 </div>
 
                 <div className="border-l-2 border-white/30 pl-4">
-                  <p className="font-semibold text-white">기획 및 개발</p>
-                  <p className="text-sm text-white/70">
+                  <p className="font-semibold text-white">
                     멋쟁이사자처럼 스타트업 스쿨 4기
                   </p>
+                  <p className="text-sm text-white/70">기획 및 개발</p>
                   <p className="text-sm text-white/60">2022.10 ~ 2022.12</p>
                 </div>
               </div>
